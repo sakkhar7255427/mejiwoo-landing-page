@@ -46,22 +46,22 @@
     }
 
     /* Hero Section */
-    .heros{
-        background-color: antiquewhite;
-
-
-    }
-    .hero {
+.hero {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 60px;
         padding: 40px 20px;
-        border: 2px solid #0077ff;
+        border: 2px solid #333;
         margin: 30px auto;
-        max-width: 1200px;
+        background-color: antiquewhite;
+        height:70vh;
+        width: 80vw;
     }
-
+    .model1 {
+        height: auto;
+        width: 151px;
+    }
     .hero img {
         width: 180px;
         height: auto;
